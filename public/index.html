@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Complete Responsive Diet Website</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header>
+      <input type="checkbox" name="" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+
+      <a href="#" class="logo"><img src="images/mainlogo.png" alt="logo" /></a>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#article">Article</a>
+        <a href="#categories">Categories</a>
+        <a href="#calculator">Calculator</a>
+      </nav>
+
+      <div class="icons">
+        <a href="#" class="fas fa-search"></a>
+        <a href="#" class="fas fa-user"></a>
+      </div>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>ZenDiet</h3>
+        <span> Eat Mindfully, Live Vibrantly! </span>
+        <p>
+          With ZenDiet, every bite is a step towards a vibrant and balanced
+          life. Join us in cultivating a mindful and healthy community!
+        </p>
+        <a href="#" class="btn">Download Now</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- about section starts-->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span> About </span> Us</h1>
+
+      <div class="row">
+        <div class="img-container">
+          <img src="images/about.jpg" alt="About Us" />
+          <h3>ZenDiet</h3>
+        </div>
+
+        <div class="content">
+          <h3>Why Choose Us?</h3>
+          <p>
+            We're your one-stop destination for all things health and wellness.
+            With articles covering diet, health, and lifestyle, along with handy
+            tools like calorie counters and BMI calculators, we provide reliable
+            information backed by the latest research. Our mobile app, ZenDiet,
+            ensures you can access these features anytime, anywhere.
+          </p>
+          <p>
+            We offer a complete solution, prioritizing user-friendly experiences
+            and fostering a supportive community. Trust us to help you on your
+            journey to a healthier lifestyle.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- article section starts-->
+
+    <section class="articles" id="articles">
+      <h1 class="heading">What's <span>Happening?</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/post1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="post.html" class="title"
+              >Bagaimana Nutrisi untuk Diabetisi yang Menjalankan Ibadah Puasa
+              Ramadhan?</a
+            >
+            <span>dr. Wahyu Ika Wardhani, M.Biomed, M.Gizi, Sp.GK(K)</span>
+            <p>Maret 3, 2024</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/post2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >Ini Kebutuhan Kalori saat Puasa dan Cara Memenuhinya</a
+            >
+            <span>dr. Verury Verona Handayani</span>
+            <p>April 6, 2021</p>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/post3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title"
+              >Ternyata Selama Puasa, Tubuh Membutuhkan Kalori Sebanyak Ini</a
+            >
+            <span>dr. Fadhli Rizal Makarim</span>
+            <p>April 18, 2022</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- article section ends-->
+
+    <!-- categories section starts -->
+
+    <section class="categories" id="categories">
+      <h1 class="heading"><span> What Are You </span> Searching For?</h1>
+      <p>Find thousands of foods and their respective calorie information.</p>
+
+      <div class="cat-container">
+        <div class="cat">
+          <img src="images/fvs.png" alt="" />
+          <h3>Fruit & Vegetables</h3>
+          <a href="#" class="btn">See More</a>
+        </div>
+
+        <div class="cat">
+          <img src="images/mdp.png" alt="" />
+          <h3>Milk, Dairy Products</h3>
+          <a href="#" class="btn">See More</a>
+        </div>
+
+        <div class="cat">
+          <img src="images/meat.png" alt="" />
+          <h3>Meat</h3>
+          <a href="#" class="btn">See more</a>
+        </div>
+
+        <div class="cat">
+          <img src="images/cp.png" alt="" />
+          <h3>Cereal Products</h3>
+          <a href="#" class="btn">See More</a>
+        </div>
+
+        <div class="cat">
+          <img src="images/dbs.png" alt="" />
+          <h3>Drink & Beverages</h3>
+          <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
+    <!-- categories section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <h1 class="heading">Subscribe <span> Us </span></h1>
+
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder="Name" class="formulir" />
+          <input type="email" placeholder="Email" class="formulir" />
+          <textarea
+            name=""
+            class="formulir"
+            placeholder="Request for Article"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Send Request" class="btn" />
+        </form>
+
+        <div class="image">
+          <img src="images/contacts.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Categories</a>
+        <a href="#">Calculator</a>
+      </div>
+
+      <div class="feedback">
+        <span>Feedback & Support: zendiet_admin@gmail.com</span>
+      </div>
+
+      <div class="credit">Copyright © 2024 <span> ZenDiet </span></div>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- JQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slick Carousel-->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
+
+    <!-- Custom Script -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
